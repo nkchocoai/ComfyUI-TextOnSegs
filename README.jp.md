@@ -24,6 +24,7 @@ git clone https://github.com/nkchocoai/ComfyUI-TextOnSegs.git
 - [workflows/draw_text_on_face.json](workflows/draw_text_on_face.json) をD&Dで読み込みます。
 - 「Draw Text」グループ内のTextノードやCalcMaxFontSizeノードなどの値を変更します。
 - ワークフローを実行します。
+  - 検出に失敗した場合、エラーが発生しますが仕様です。
 
 ### ボードにテキストを書く
 - [Can't show this \(meme\) SDXL](https://civitai.com/models/293531) をダウンロードし、以下のフォルダに配置します。
@@ -33,3 +34,4 @@ git clone https://github.com/nkchocoai/ComfyUI-TextOnSegs.git
 - [workflows/draw_text_on_board.json](workflows/draw_text_on_board.json) をD&Dで読み込みます。
 - 「Draw Text」グループ内のTextノードやCalcMaxFontSizeノードなどの値を変更します。
 - ワークフローを実行します。
+  - 検出に失敗した場合、エラーが発生しますが仕様です。

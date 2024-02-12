@@ -26,6 +26,7 @@ git clone https://github.com/nkchocoai/ComfyUI-TextOnSegs.git
 - Load [workflows/draw_text_on_face.json](workflows/draw_text_on_face.json) with D&D.
 - Change the values of Text node, CalcMaxFontSize node, etc. in the "Draw Text" group.
 - Execute the workflow.
+  - If detection fails, an error occurs, but this is a specification.
 
 ### Write text on the board
 - Download [Can't show this \(meme\) SDXL](https://civitai.com/models/293531) and place it in the following folder.
@@ -35,3 +36,4 @@ git clone https://github.com/nkchocoai/ComfyUI-TextOnSegs.git
 - Load [workflows/draw_text_on_board.json](workflows/draw_text_on_board.json) with D&D.
 - Change the values of the Text node, CalcMaxFontSize node, etc. in the "Draw Text" group.
 - Execute the workflow.
+  - If detection fails, an error occurs, but this is a specification.
